@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: #e7e7e7;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+.image{
+    margin: 50px;
+    position: absolute;
+    height: 40vh;
+    width: auto;
+    top: 0;
+    right: 0;
+    opacity: 0.05;
+    z-index: -1;
+    rotate: -30deg;
+}
+.blur{
+    height: 0;
+    width: 30rem;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    box-shadow: 0 0 700px 15px rgba(7, 203, 72, 0.66);
+    rotate: -30deg;
+    z-index: -1;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+header h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.sgn{
+    position: relative;
+    top: 15px;
+    background-color: #a7a7a7;
+    color: black;
+    padding: 0.8rem 2rem;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 545;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    z-index: 999;
+}
+.sgn:hover{
+    background-color: white;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(90vh - 6rem);
+}
+.content{
+    max-width: 40rem;
+    min-height: 100%;
+    margin-left: 7%;
+    z-index: 999;
+}
+.tagbox{
+    position: relative;
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(168, 243, 5), rgb(222, 237, 8), rgb(11, 225, 218), rgb(27, 171, 138), rgb(5, 245, 77));
+    background-size: 200%;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgb(255, 255, 255, 0.5);
+}
+@keyframes animationGradient{
+    to{
+        background-position: 200%;
+    }
+}
+.tagbox .tag{
+    position: absolute;
+    inset: 3px 3px 3px 3px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.tagbox .tag:hover{
+    color: aquamarine;
+}
+.content h1{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin: 2rem 0;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(128, 128, 128, 0.4);
+}
+.description{
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    max-width: 35rem;
+    color: gray;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.str{
+    text-decoration: none;
+    border: 1px solid #2a2a2a;
+    padding: 0.6rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s ease;
+}
+.str:hover{
+    background-color: #403f3f66;
+}
+.knm{
+    text-decoration: none;
+    background-color: azure;
+    padding: 0.6rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s ease;
+}
+.knm:hover{
+    background-color: lightgray;
+}
+.bin{
+    height: 120%;
+    position: absolute;
+    top: 30px;
+    right: -20%;
+}

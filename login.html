@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrBin</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="loginbox">
+            <form action="">
+                <h1>Welcome Back to Mr. Bin!</h1>
+                <div class="inputbox">
+                    <input type="text" placeholder="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" placeholder="password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="forgot">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>New to Mr. Bin?<a class="register-btn" href="#">Sign Up</a></p>
+            </form>
+        </div>
+
+        <div class="regbox">
+            <form action="">
+                <h1>Hello, Welcome to Mr. Bin!</h1>
+                <div class="inputbox">
+                    <input type="text" placeholder="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="inputbox">
+                    <input type="email" placeholder="email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" placeholder="password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <p>Already have an account?<a class="login-btn" href="#">Sign In</a></p>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+            </div>
+            <div class="toggle-panel toggle-right">
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
