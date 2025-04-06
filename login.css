@@ -11,7 +11,7 @@
         linear-gradient(
         rgba(0, 0, 0, 0.352),
         rgba(0, 0, 0, 0.5)),
-        url(Art\ Hair\ GIF\ by\ Alastair\ Gray.gif);
+        url(Art Hair GIF by Alastair Gray.gif);
     position: absolute;
     top: 0;
     left: 0;
@@ -168,7 +168,7 @@ form a{
     left: -150%;
     width: 200%;
     height: 100%;
-    background: url(Welcome\ to\ the\ club.png);
+    background: url(Welcome to the club.png);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
