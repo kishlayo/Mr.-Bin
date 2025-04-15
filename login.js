@@ -8,12 +8,13 @@ import {
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
+   apiKey: "AIzaSyBh2ghJVk35i7wOSBn1Ha3qg4ZrFGwwghA",
+  authDomain: "mrbin-3dc43.firebaseapp.com",
+  projectId: "mrbin-3dc43",
+  storageBucket: "mrbin-3dc43.firebasestorage.app",
+  messagingSenderId: "447966458855",
+  appId: "1:447966458855:web:21e2095a3a7077f1510342",
+  measurementId: "G-T3W3KYBYRN",
 };
 
 // Initialize Firebase
